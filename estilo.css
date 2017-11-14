@@ -1,0 +1,91 @@
+body {
+	background-color: #ccffff;
+}
+
+h1 {
+	color: #808080; 
+	font-family: arial;
+}
+
+#parteSuperior {
+	background-color: white;
+	border: 0px solid;
+	border-radius: 10px;
+}
+
+#caixa1_entrada {
+	margin: 10px;
+    background: white;
+    padding: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#logo {
+	width: 200px;
+	height: 100px;
+	border-bottom-style: solid;
+	border-width: 0px;
+}
+
+#hora {
+	font-family: arial;
+	display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-top: 84px;
+    font-size:50px;
+    color:#1889E1;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+#caixa2_informativos {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	width: 300px;
+	height: 300px;
+}
+
+#imagem_informativa {
+	width: 600px;
+	height: 320px;
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+
+#parteInferior {
+	background-color: DodgerBlue;
+	border: 0px solid;
+	border-radius: 10px;
+}
+
+#proximosChamados {
+	position: relative;
+	width: 500px;
+	height: 300px;
+	font-family: arial;
+}
+
+#chamadaAtual {
+	position: relative;
+	width: 500px;
+	height: 300px;
+	font-family: arial;
+}
+
+#ultimosChamados {
+	position: relative;
+	width: 500px;
+	height: 300px;
+	font-family: arial;
+}
