@@ -11,7 +11,7 @@ h1 {
 h3 {
 	text-align: center;
 	font-size: 27px;
-    font-weight: bold;
+    	font-weight: bold;
 }
 
 p {
@@ -20,25 +20,25 @@ p {
 	font-family: arial;
 	font-size: 25px;
 	padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    	padding-right: 10px;
+    	padding-bottom: 10px;
+    	padding-left: 10px;
 	margin-left: -30px;
-    margin-top: 10px;
+    	margin-top: 10px;
 	margin-right: 10px;
 	
 	border-radius: 10px;
-    overflow: hidden;
+    	overflow: hidden;
 	
 }
 
 #caixa1_entrada {
 	margin-right: 685px;
-    background: white;
-    padding: 10px;
-    padding-top: 5px;
-    border-radius: 10px;
-    overflow: hidden;
+    	background: white;
+    	padding: 10px;
+    	padding-top: 5px;
+    	border-radius: 10px;
+    	overflow: hidden;
 }
 
 #logo {
@@ -51,13 +51,13 @@ p {
 #hora {
 	font-family: arial;
 	display: inline-block;
-    vertical-align: top;
-    margin-left: 20px;
-    margin-top: 84px;
-    font-size:50px;
-    color:#1889E1;
-    width: 600px;
-    text-align: center;
+    	vertical-align: top;
+    	margin-left: 20px;
+    	margin-top: 84px;
+    	font-size:50px;
+    	color:#1889E1;
+    	width: 600px;
+    	text-align: center;
 }
 
 
@@ -68,11 +68,11 @@ p {
 	right: 10px;
 	left: 50%;
 	padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    border-radius: 10px;
-    overflow: hidden;
+    	padding-right: 0px;
+   	 padding-bottom: 0px;
+    	padding-left: 20px;
+    	border-radius: 10px;
+    	overflow: hidden;
    
 }
 
@@ -80,9 +80,9 @@ p {
 	width: 600px;
 	height: 320px;
 	padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 10px;
+    	padding-right: 10px;
+    	padding-bottom: 5px;
+    	padding-left: 10px;
 }
 
 #proximosChamados {
@@ -117,15 +117,15 @@ p {
 	font-family: arial;
 	font-size: 25px;
 	padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    	padding-right: 10px;
+    	padding-bottom: 10px;
+    	padding-left: 10px;
 	margin-left: 10px;
-    margin-top: 10px;
+    	margin-top: 10px;
 	margin-right: 10px;
 	height: 278px;
 	border-radius: 10px;
-    overflow: hidden;
+    	overflow: hidden;
 }
 
 #nome {
