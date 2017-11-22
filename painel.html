@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>TV JUCERN</title>
+		<link rel="stylesheet" href="estilo.css"/>
+		<link rel="shortcut icon" href="Imagens/img.png"/>
+		<script type="text/javascript" src="funcoes.js"></script>
+	</head>
+	<body onLoad="tempo()">	
+		<div id="caixa1_entrada">
+			<div id="logo">
+				<img src="Imagens/logo.png" alt="jucern"/>
+			</div>
+			<h1>Bem vindo a JUCERN.</h1>
+			<div id="hora">
+				12:00
+			</div>			
+		</div>
+		<div id="caixa2_informativos">
+			<img id="imagem_informativa" src="Imagens/infor.png" alt="infor"/>
+		</div>
+		<div id="proximosChamados">
+			<h3>Próximos Chamadas</h3>
+			<ul style="list-style-type:none">
+				<li><p><b>Nome<br/><font color="red">Senha: 5</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">Guichê 1</font></b></p></li>
+				<li><p><b>Nome<br/><font color="red">Senha: 6</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">Guichê 1</font></b></p></li>
+				<li><p><b>Nome<br/><font color="red">Senha: 7</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">Guichê 1</font></b><a href="javascript:void(0)" onClick="efeito();">a</a></p></li>
+			</ul> 
+		</div>
+		<div id="chamadaAtual">
+			<h3>Chamada Atual</h3>
+			<audio id="alerta" autoplay preload="auto">
+				<source src="sons/alerta.mp3">
+				<p>Tag não compativel com o Browser usado.</p>
+			</audio>
+			<div id="notifica">
+				<p id="nome">Nome<br/></p>
+				<p id="dados"><b><font color="red">Senha: 4</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">Guichê 1</font></b></p>
+			</div>
+		</div>
+		<div id="ultimosChamados">
+			<h3>Últimos Chamados</h3>
+			<ul style="list-style-type:none">
+				<li><p><b>Nome<br/><font color="red">Senha: 3</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">Guichê 1</font></b></p></li>
+				<li><p><b>Nome<br/><font color="red">Senha: 2</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">Guichê 1</font></b></p></li>
+				<li><p><b>Nome<br/><font color="red">Senha: 1</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">Guichê 1</font></b></p></li>
+			</ul>
+		</div>
+	</body>
+</html>
