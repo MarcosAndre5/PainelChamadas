@@ -9,9 +9,10 @@ h1 {
 }
 
 h3 {
+	color: white;
 	text-align: center;
 	font-size: 27px;
-    	font-weight: bold;
+    font-weight: bold;
 }
 
 p {
@@ -20,23 +21,23 @@ p {
 	font-family: arial;
 	font-size: 25px;
 	padding-top: 10px;
-    	padding-right: 10px;
-    	padding-bottom: 10px;
-    	padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 	margin-left: -30px;
-    	margin-top: 10px;
+    margin-top: 10px;
 	margin-right: 10px;
 	border-radius: 10px;
-    	overflow: hidden;
+    overflow: hidden;
 }
 
 #caixa1_entrada {
 	margin-right: 685px;
-    	background: white;
-    	padding: 10px;
-    	padding-top: 5px;
-    	border-radius: 10px;
-    	overflow: hidden;
+    background: white;
+    padding: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 #logo {
@@ -49,15 +50,14 @@ p {
 #hora {
 	font-family: arial;
 	display: inline-block;
-    	vertical-align: top;
-    	margin-left: 20px;
-    	margin-top: 84px;
-    	font-size:50px;
-    	color:#1889E1;
-    	width: 600px;
-    	text-align: center;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-top: 84px;
+    font-size:50px;
+    color:#1889E1;
+    width: 600px;
+    text-align: center;
 }
-
 
 #caixa2_informativos {
 	background: white;
@@ -66,11 +66,11 @@ p {
 	right: 10px;
 	left: 50%;
 	padding-top: 0px;
-    	padding-right: 0px;
-   	 padding-bottom: 0px;
-    	padding-left: 20px;
-    	border-radius: 10px;
-    	overflow: hidden;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    border-radius: 10px;
+    overflow: hidden;
    
 }
 
@@ -78,13 +78,13 @@ p {
 	width: 600px;
 	height: 320px;
 	padding-top: 10px;
-    	padding-right: 10px;
-    	padding-bottom: 5px;
-    	padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
 }
 
 #proximosChamados {
-	background-color: #78B9F1;
+	background-color: #1E90FF;
 	position: absolute;
 	top: 366px;
 	right: 300px;
@@ -97,7 +97,7 @@ p {
 }
 
 #chamadaAtual {
-	background-color: #78B9F1;
+	background-color: #1E90FF;
 	width: 610px;
 	height: 400px;
 	font-family: arial;
@@ -115,29 +115,33 @@ p {
 	font-family: arial;
 	font-size: 25px;
 	padding-top: 10px;
-    	padding-right: 10px;
-    	padding-bottom: 10px;
-    	padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 	margin-left: 10px;
-    	margin-top: 10px;
+    margin-top: 10px;
 	margin-right: 10px;
 	height: 278px;
 	border-radius: 10px;
-    	overflow: hidden;
+    overflow: hidden;
 }
 
 #nome {
 	font-size: 70px;
 	text-align: center;
+	margin-left: -10px;
+	margin-right: -10px;
 }
 
 #dados {
 	text-align: center;
 	font-size: 40px;
+	margin-left: -10px;
+	margin-right: -10px;
 }
 
 #ultimosChamados {
-	background-color: #78B9F1;
+	background-color: #1E90FF;
 	position: absolute;
 	top: 366px;
 	right: 300px;
